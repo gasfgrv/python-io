@@ -4,3 +4,6 @@ class Contato:
         self.id = id
         self.nome = nome
         self.email = email
+
+    def __str__(self):
+        return str(self.__dict__)
